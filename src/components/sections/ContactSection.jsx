@@ -74,7 +74,7 @@ const ContactSection = () => {
         >
           <MapPin className="h-6 w-6 text-blue-400 mb-3" />
           <p className="text-base font-medium">
-            Plot No. 216, Near Industrial Area, Bhubaneswar, Odisha
+            Machhua Bazar, Near BOB ATM, Infront of LIC Office, Cuttack – 753001, Odisha
           </p>
           <p className="text-sm text-gray-400 mt-1">
             Open: Mon - Sat, 9:00 AM – 7:00 PM
