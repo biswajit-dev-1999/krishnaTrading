@@ -6,22 +6,22 @@ import { Shield, Wrench, Zap, Flame } from "lucide-react";
 
 const features = [
   {
-    icon: <Shield className="w-6 h-6 text-blue-600" />,
+    icon: <Shield className="w-6 h-6 text-white-600" />,
     title: "Safety & Welding Equipment",
     desc: "High-grade certified safety and welding products ensuring reliability and compliance.",
   },
   {
-    icon: <Wrench className="w-6 h-6 text-blue-600" />,
+    icon: <Wrench className="w-6 h-6 text-white-600" />,
     title: "Industrial Hardware",
     desc: "Durable and precision-engineered lifting tools, hardware, and accessories.",
   },
   {
-    icon: <Zap className="w-6 h-6 text-blue-600" />,
+    icon: <Zap className="w-6 h-6 text-white-600" />,
     title: "Electrical & Power Tools",
     desc: "Power-efficient, performance-driven tools trusted by top industries.",
   },
   {
-    icon: <Flame className="w-6 h-6 text-blue-600" />,
+    icon: <Flame className="w-6 h-6 text-white-600" />,
     title: "Fire & Safety Gear",
     desc: "Complete range of firefighting and emergency safety equipment.",
   },
