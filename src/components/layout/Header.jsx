@@ -50,10 +50,10 @@ const Header = () => {
           <span
             className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 whitespace-nowrap tracking-wide"
             style={{
-              fontFamily: "'Playfair Display', serif",
+              fontFamily: "'Poppins', sans-serif",
             }}
           >
-            Krishna Trading
+            KRISHNA TRADING
           </span>
         </Link>
 
@@ -74,12 +74,19 @@ const Header = () => {
               {link.name}
             </NavLink>
           ))}
-          <Button
-            variant="primary"
-            className="ml-4 bg-orange-600 hover:bg-orange-700 text-white rounded-full px-4 py-1.5 text-sm font-semibold"
+          <Link
+            to="https://portal.krishnatrade.in/index.php/sessions/login"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-4"
           >
-            Login
-          </Button>
+            <Button
+              variant="primary"
+              className="bg-orange-600 hover:bg-orange-700 text-white rounded-full px-4 py-1.5 text-sm font-semibold cursor-pointer"
+            >
+              Login
+            </Button>
+          </Link>
         </nav>
 
         {/* ===== Mobile Menu Button ===== */}

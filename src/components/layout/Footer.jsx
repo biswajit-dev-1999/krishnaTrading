@@ -101,6 +101,8 @@ const Footer = () => {
       <div className="border-t border-gray-800 mt-14 pt-5 text-center text-xs text-gray-500">
         © {new Date().getFullYear()}{" "}
         <span className="text-blue-400 font-medium">Krishna Trading Company</span>. All rights reserved.
+
+        <span className="text-blue-500">Designed by <a href="https://www.trackepay.in/">Trackepay</a></span>
       </div>
     </footer>
   );
