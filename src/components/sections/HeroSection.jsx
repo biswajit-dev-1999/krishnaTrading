@@ -33,13 +33,13 @@ const slides = [
     subtitle:
       "From protective gear to heavy machinery — everything under one roof.",
   },
-  {
-    id: 5,
-    image: "/24.png",
-    title: "Innovative Solutions for Every Industry",
-    subtitle:
-      "Modern products designed for safety, productivity, and performance.",
-  },
+  // {
+  //   id: 5,
+  //   image: "/24.png",
+  //   title: "Innovative Solutions for Every Industry",
+  //   subtitle:
+  //     "Modern products designed for safety, productivity, and performance.",
+  // },
 ];
 
 const HeroSection = () => {
@@ -54,24 +54,25 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="relative w-full h-[90vh] overflow-hidden text-white">
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={slides[current].id}
-          initial={{ opacity: 0, scale: 1.05 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, scale: 0.95 }}
-          transition={{ duration: 1, ease: "easeInOut" }}
-          className="absolute inset-0"
-        >
-          <img
-            src={slides[current].image}
-            alt={slides[current].title}
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-black/50 "></div>
-        </motion.div>
-      </AnimatePresence>
+    <section className="relative w-full h-[90vh] overflow-hidden text-white bg-black">
+    <AnimatePresence mode="wait">
+      <motion.div
+        key={slides[current].id}
+        initial={{ opacity: 0, scale: 1.05 }}
+        animate={{ opacity: 1, scale: 1 }}
+        exit={{ opacity: 0, scale: 0.95 }}   // FIXED
+        transition={{ duration: 0.5, ease: "easeInOut" }} // smoother
+        className="absolute inset-0"
+      >
+        <img
+          src={slides[current].image}
+          alt={slides[current].title}
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/50"></div>
+      </motion.div>
+    </AnimatePresence>
+  
 
       <Container className="relative z-10 flex flex-col items-center md:items-start justify-center h-full text-center md:text-left px-6">
         <motion.h1
