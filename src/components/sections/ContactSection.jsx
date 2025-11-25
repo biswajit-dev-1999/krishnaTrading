@@ -49,10 +49,10 @@ const ContactSection = () => {
         >
           {/* 📞 Call Button */}
           <a
-            href="tel:+917506077743"
+            href="tel:+919776977650"
             className="border border-blue-400 text-blue-300 hover:bg-blue-600/20 hover:text-white transition-all duration-300 flex items-center px-5 py-3 rounded-lg"
           >
-            <Phone className="mr-2 h-5 w-5 text-blue-400" /> +91 7506077743
+            <Phone className="mr-2 h-5 w-5 text-blue-400" /> +91 9776977650
           </a>
 
           <a
@@ -74,7 +74,7 @@ const ContactSection = () => {
         >
           <MapPin className="h-6 w-6 text-blue-400 mb-3" />
           <p className="text-base font-medium">
-            Machhua Bazar, Near BOB ATM, Infront of LIC Office, Cuttack – 753001, Odisha
+            Machhua Bazar, Near maa durga temple, Infront of LIC Office, Cuttack – 753001, Odisha
           </p>
           <p className="text-sm text-gray-400 mt-1">
             Open: Mon - Sat, 9:00 AM – 7:00 PM

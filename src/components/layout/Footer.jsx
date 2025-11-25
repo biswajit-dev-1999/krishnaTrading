@@ -52,13 +52,21 @@ const Footer = () => {
             <li className="flex items-start gap-3">
               <MapPin size={18} className="text-blue-400 mt-1" />
               <span>
-                Machhua Bazar, Near BOB ATM, Infront of LIC Office,
+                Machhua bazar near maa durga temple, Infront of LIC office
                 <br /> Cuttack - 753001, Odisha
               </span>
             </li>
-            <li className="flex items-center gap-3">
-              <Phone size={18} className="text-blue-400" /> +91 7506077743
-            </li>
+           <li className="flex flex-col gap-2">
+  <div className="flex items-center gap-3">
+    <Phone size={18} className="text-blue-400" />
+    <span>+91 9776977650</span>
+  </div>
+
+  <div className="flex items-center gap-3">
+    <Phone size={18} className="text-blue-400" />
+    <span>+91 9776977648</span>
+  </div>
+</li>
             <li className="flex items-center gap-3">
               <Mail size={18} className="text-blue-400" /> salesktc74@gmail.com
             </li>
