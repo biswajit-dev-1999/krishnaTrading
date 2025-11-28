@@ -1,26 +1,32 @@
 export const fireFighting = [
   {
     id: 1,
-    name: "Fire Extinguisher",
-    image: "/2.png",
-    description: "ISI-marked ABC type fire extinguisher for commercial and industrial use.",
+    name: "Fire Bucket Stand",
+    image: "/501.jpeg",
+    description: "Sturdy fire bucket stand for organized fire safety equipment storage.",
   },
-  // {
-  //   id: 2,
-  //   name: "Fire Hose Reel",
-  //   image: "/images/products/fire/hose-reel.jpg",
-  //   description: "High-pressure fire hose reel with brass nozzle.",
-  // },
-  // {
-  //   id: 3,
-  //   name: "Smoke Detector",
-  //   image: "/images/products/fire/smoke-detector.jpg",
-  //   description: "Automatic smoke detection system for early warning.",
-  // },
-  // {
-  //   id: 4,
-  //   name: "Fire Hydrant Valve",
-  //   image: "/images/products/fire/hydrant.jpg",
-  //   description: "Cast iron fire hydrant valve for building fire safety systems.",
-  // },
+  {
+    id: 2,
+    name: "Fire Extinguisher",
+    image: "/502.jpeg",
+    description: "ABC type fire extinguisher for multi-purpose fire suppression.",
+  },
+  {
+    id: 3,
+    name: "Fire Safety Learning Kit",
+    image: "/503.jpeg",
+    description: "Comprehensive fire safety learning kit for training and education.",
+  },
+  {
+    id: 4,
+    name: "Fire Blanket",
+    image: "/504.jpeg",
+    description: "Heat-resistant fire blanket for smothering small fires.",
+  },
+  {
+    id: 5,
+    name: "All-class Fire Extinguisher",
+    image: "/505.jpeg",
+    description: "All-class fire extinguisher suitable for various fire types including A, B, and C.",
+  },
 ];

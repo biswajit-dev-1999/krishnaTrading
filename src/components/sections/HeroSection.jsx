@@ -8,7 +8,7 @@ const slides = [
   {
     id: 1,
     image: "/20.png",
-    title: "Reliable Industrial & Safety Equipment Suppliers",
+    title: "Reliable Industrial & Safety Goods Suppliers",
     subtitle:
       "Dealers & Stockists for Safety, Welding, Electrical, Hardware, and Industrial Materials.",
   },

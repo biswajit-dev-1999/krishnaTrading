@@ -9,7 +9,7 @@ const SafetyEquipmentSection = () => {
     <section className="py-16 bg-white" id="safety">
       <Container>
         <SectionTitle
-          title="Safety Equipment"
+          title="Safety Goods"
           subtitle="High-quality personal protective equipment (PPE) for industrial use"
         />
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-10">

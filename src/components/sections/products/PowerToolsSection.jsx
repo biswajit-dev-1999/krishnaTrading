@@ -9,7 +9,7 @@ const PowerToolsSection = () => {
     <section className="py-16 bg-white" id="power-tools">
       <Container>
         <SectionTitle
-          title="Power Tools"
+          title="Shuttering Materials"
           subtitle="High-performance electric and cordless tools for every project"
         />
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-10">

@@ -9,7 +9,7 @@ const LiftingEquipmentSection = () => {
     <section className="py-16 bg-white" id="lifting">
       <Container>
         <SectionTitle
-          title="Lifting Equipment"
+          title="Lifting Tackles"
           subtitle="Chains, slings, pulleys, and lifting tackles for heavy operations"
         />
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-10">

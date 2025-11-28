@@ -17,13 +17,13 @@ const features = [
   },
   {
     icon: <Zap className="w-6 h-6 text-white-600" />,
-    title: "Electrical & Power Tools",
+    title: "Electrical & Shuttering Materials",
     desc: "Power-efficient, performance-driven tools trusted by top industries.",
   },
   {
     icon: <Flame className="w-6 h-6 text-white-600" />,
     title: "Fire & Safety Gear",
-    desc: "Complete range of firefighting and emergency safety equipment.",
+    desc: "Complete range of firefighting and emergency Safety Goods.",
   },
 ];
 

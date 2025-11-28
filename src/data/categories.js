@@ -1,7 +1,7 @@
 export const categories = [
   {
     id: 1,
-    name: "Safety Equipment",
+    name: "Safety Goods",
     slug: "safety",
     image: "/1.png",
     description:
@@ -17,7 +17,7 @@ export const categories = [
   },
   {
     id: 3,
-    name: "Lifting Equipment",
+    name: "Lifting Tackles",
     slug: "lifting",
     image: "/3.png",
     description:
@@ -33,7 +33,7 @@ export const categories = [
   },
   {
     id: 5,
-    name: "Power Tools",
+    name: "Shuttering Materials",
     slug: "power-tools",
     image: "/5.png",
     description:

@@ -16,7 +16,7 @@ const About = () => {
             About Krishna Trading Company
           </h1>
           <p className="text-lg md:text-xl max-w-2xl">
-            Dealer & Stockist of safety equipment, welding accessories, lifting
+            Dealer & Stockist of Safety Goods, welding accessories, lifting
             equipment, firefighting, power & hand tools, electrical, hardware
             and general project materials.
           </p>
@@ -42,7 +42,7 @@ const About = () => {
                 Krishna Trading Company was founded with a vision to redefine
                 reliability in industrial supply. What began as a small,
                 customer-driven enterprise soon evolved into one of the most
-                respected names in the industrial and safety equipment sector.
+                respected names in the industrial and Safety Goods sector.
                 Our roots are built on integrity, hard work, and an unwavering
                 focus on customer satisfaction.
               </p>
