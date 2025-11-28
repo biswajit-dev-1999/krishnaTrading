@@ -12,6 +12,8 @@ import { handTools } from "../data/products/handTools";
 import { electrical } from "../data/products/electrical";
 import { hardware } from "../data/products/hardware";
 import { industrialMaterial } from "../data/products/industrialMaterial";
+import { soilTesting } from "../data/products/soilTesting";
+import { surveyEquipment } from "../data/products/surveyEquipment";
 
 const dataMap = {
   safety: safetyEquipment,
@@ -23,6 +25,8 @@ const dataMap = {
   electrical,
   hardware,
   "industrial-material": industrialMaterial,
+  "soil-testing": soilTesting,
+  "surveying-equipment": surveyEquipment,
 };
 
 const Products = () => {

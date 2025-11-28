@@ -7,28 +7,28 @@ import { Link } from "react-router-dom";
 const slides = [
   {
     id: 1,
-    image: "/20.png",
+    image: "/port.jpg",
     title: "Reliable Industrial & Safety Goods Suppliers",
     subtitle:
       "Dealers & Stockists for Safety, Welding, Electrical, Hardware, and Industrial Materials.",
   },
   {
     id: 2,
-    image: "/21.png",
+    image: "/plant.jpg",
     title: "Your Trusted Partner in Industrial Excellence",
     subtitle:
       "We provide high-quality tools and equipment built for durability and performance.",
   },
   {
     id: 3,
-    image: "/22.png",
+    image: "/road.jpg",
     title: "Delivering Quality Since 1990",
     subtitle:
       "Serving industries with precision-engineered safety and industrial solutions.",
   },
   {
     id: 4,
-    image: "/23.png",
+    image: "/building.jpg",
     title: "Complete Range of Industrial Products",
     subtitle:
       "From protective gear to heavy machinery — everything under one roof.",

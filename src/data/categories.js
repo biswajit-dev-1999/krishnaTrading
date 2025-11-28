@@ -71,4 +71,21 @@ export const categories = [
     description:
       "Pipes, sheets, and project supplies for industrial construction and manufacturing.",
   },
+  {
+    id: 10,
+    name: "Soil Testing Equipment",
+    slug: "soil-testing",
+    image: "/25.png",
+    description:
+      "Soil Auger, Core Cutter with Rammer, Proctor Compaction Apparatus, CBR Testing Machine",
+  },
+  {
+    id: 9,
+    name: "Surveying Equipment",
+    slug: "surveying-equipment",
+    image: "/26.png",
+    description:
+      "Theodolites, Total Stations, Auto Levels, Laser Levels, Tripods, Measuring Tapes",
+  },
+  
 ];
