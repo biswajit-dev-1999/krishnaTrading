@@ -8,7 +8,7 @@ const slides = [
   {
     id: 1,
     image: "/port.jpg",
-    title: "Reliable Industrial & Safety Goods Suppliers",
+    title: "Reliable Industrial & Safety Equipment Suppliers",
     subtitle:
       "Dealers & Stockists for Safety, Welding, Electrical, Hardware, and Industrial Materials.",
   },
@@ -60,15 +60,17 @@ const HeroSection = () => {
         key={slides[current].id}
         initial={{ opacity: 0, scale: 1.05 }}
         animate={{ opacity: 1, scale: 1 }}
-        exit={{ opacity: 0, scale: 0.95 }}   // FIXED
-        transition={{ duration: 0.5, ease: "easeInOut" }} // smoother
+        exit={{ opacity: 0, scale: 0.95 }}
+        transition={{ duration: 0.5, ease: "easeInOut" }}
         className="absolute inset-0"
       >
-        <img
-          src={slides[current].image}
-          alt={slides[current].title}
-          className="w-full h-full object-cover"
+        {/* Use a background div for more reliable responsive cover on mobile */}
+        <div
+          aria-hidden="true"
+          className="w-full h-full bg-center bg-cover bg-no-repeat"
+          style={{ backgroundImage: `url(${slides[current].image})` }}
         />
+
         <div className="absolute inset-0 bg-black/50"></div>
       </motion.div>
     </AnimatePresence>
