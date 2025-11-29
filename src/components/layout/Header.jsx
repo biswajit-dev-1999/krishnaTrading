@@ -3,13 +3,12 @@ import { Link, NavLink } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import Container from "../ui/Container";
 import Button from "../ui/Button";
-import logo from "/logo.png"; // place your logo in public folder
+import logo from "/logo.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  // Change header style on scroll
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
@@ -33,38 +32,44 @@ const Header = () => {
           : "bg-white/80 backdrop-blur-md border-b border-gray-100"
       }`}
     >
-      {/* ✅ Reduced padding height */}
       <Container className="flex items-center justify-between py-2 md:py-3">
-        {/* ===== Logo + Name ===== */}
+        {/* Logo + Company name */}
         <Link
           to="/"
-          className="flex items-center gap-2 md:gap-3 hover:opacity-90 transition"
+          className="flex items-center gap-2 md:gap-3 hover:opacity-90 transition max-w-[70%] md:max-w-[55%]"
         >
-          {/* ✅ Logo first */}
           <img
             src={logo}
             alt="Krishna Trading Company"
-            className="w-12 h-12 md:w-14 md:h-14 object-contain drop-shadow-sm"
+            className="w-10 h-10 sm:w-12 sm:h-12 md:w-12 md:h-12 object-contain drop-shadow-sm"
           />
-          {/* ✅ Name next */}
+
           <span
-            className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-800 whitespace-nowrap tracking-wide"
-            style={{
-              fontFamily: "'Poppins', sans-serif",
-            }}
+            className="
+              text-[11px]     /* very small on phones */
+              sm:text-xs
+              md:text-sm      /* keep small on tablets */
+              lg:text-base
+              xl:text-lg
+              font-semibold
+              text-gray-800
+              whitespace-nowrap
+              leading-none
+            "
+            style={{ fontFamily: "'Poppins', sans-serif" }}
           >
             KRISHNA TRADING COMPANY
           </span>
         </Link>
 
-        {/* ===== Desktop Nav ===== */}
-        <nav className="hidden md:flex items-center gap-6 lg:gap-8">
+        {/* Desktop / Tablet nav */}
+        <nav className="hidden md:flex items-center gap-5 lg:gap-6">
           {navLinks.map((link) => (
             <NavLink
               key={link.path}
               to={link.path}
               className={({ isActive }) =>
-                `text-sm font-medium uppercase tracking-wide ${
+                `text-xs md:text-sm font-medium uppercase tracking-wide ${
                   isActive
                     ? "text-orange-600 border-b-2 border-orange-600 pb-1"
                     : "text-gray-700 hover:text-orange-600 transition"
@@ -74,22 +79,23 @@ const Header = () => {
               {link.name}
             </NavLink>
           ))}
+
           <Link
             to="https://portal.krishnatrade.in/index.php/sessions/login"
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-4"
+            className="ml-2 md:ml-4"
           >
             <Button
               variant="primary"
-              className="bg-orange-600 hover:bg-orange-700 text-white rounded-full px-4 py-1.5 text-sm font-semibold cursor-pointer"
+              className="bg-orange-600 hover:bg-orange-700 text-white rounded-full px-4 py-1.5 text-xs md:text-sm font-semibold cursor-pointer"
             >
               Login
             </Button>
           </Link>
         </nav>
 
-        {/* ===== Mobile Menu Button ===== */}
+        {/* Mobile menu button */}
         <button
           className="md:hidden text-gray-800 hover:text-orange-600 transition"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -99,7 +105,7 @@ const Header = () => {
         </button>
       </Container>
 
-      {/* ===== Mobile Nav ===== */}
+      {/* Mobile nav */}
       {menuOpen && (
         <div className="md:hidden bg-white border-t border-gray-100 shadow-md">
           <Container className="flex flex-col py-4 space-y-3">
