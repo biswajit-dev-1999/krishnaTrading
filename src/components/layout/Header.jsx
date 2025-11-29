@@ -53,7 +53,7 @@ const Header = () => {
               fontFamily: "'Poppins', sans-serif",
             }}
           >
-            KRISHNA TRADING
+            KRISHNA TRADING COMPANY
           </span>
         </Link>
 

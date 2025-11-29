@@ -22,7 +22,7 @@ const slides = [
   {
     id: 3,
     image: "/road.jpg",
-    title: "Delivering Quality Since 1990",
+    title: "Delivering Quality Since 2009",
     subtitle:
       "Serving industries with precision-engineered safety and industrial solutions.",
   },

@@ -42,9 +42,9 @@ const About = () => {
                 Krishna Trading Company was founded with a vision to redefine
                 reliability in industrial supply. What began as a small,
                 customer-driven enterprise soon evolved into one of the most
-                respected names in the industrial and Safety Goods sector.
-                Our roots are built on integrity, hard work, and an unwavering
-                focus on customer satisfaction.
+                respected names in the industrial and Safety Goods sector. Our
+                roots are built on integrity, hard work, and an unwavering focus
+                on customer satisfaction.
               </p>
               <p>
                 In the early years, we focused on understanding the practical
@@ -62,6 +62,86 @@ const About = () => {
                 product we supply reflects our commitment to quality and our
                 dedication to building long-term relationships grounded in
                 trust, value, and professionalism.
+              </p>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      {/* Project Experience */}
+      <section className="py-20 bg-gray-50">
+        <Container>
+          <SectionTitle
+            title="Project Experience"
+            subtitle="A Journey of On-Site Reliability Since 2009"
+            theme="light"
+          />
+          <div className="grid md:grid-cols-2 gap-10">
+            <div className="space-y-4 text-gray-700">
+              <p>
+                Our project-line experience began in <strong>2009</strong>, when
+                Krishna Trading Company started supplying critical industrial
+                and safety materials to large-scale power and infrastructure
+                projects across India. These early assignments laid a strong
+                foundation for our reputation as a dependable and responsive
+                project partner.
+              </p>
+              <p>
+                From power plants to pipeline infrastructure, we have supported
+                on-site teams with safety goods, welding and lifting solutions,
+                tools, and day-to-day project consumables — ensuring that work
+                continues smoothly, safely, and on schedule.
+              </p>
+              <p>
+                Our journey in the project segment started with the following
+                major sites and companies:
+              </p>
+             <ul className="space-y-4">
+  <li className="pl-4 border-l-4 border-blue-900 text-lg">
+    <strong className="text-blue-900">Reliance Power Ltd. (Sasan), Madhya Pradesh</strong>
+  </li>
+  <li className="pl-4 border-l-4 border-blue-900 text-lg">
+    <strong className="text-blue-900">Essar Power Ltd. (Mahan), Madhya Pradesh</strong>
+  </li>
+  <li className="pl-4 border-l-4 border-blue-900 text-lg">
+    <strong className="text-blue-900">Hindalco Industries Ltd. (Bergva), Madhya Pradesh</strong>
+  </li>
+  <li className="pl-4 border-l-4 border-blue-900 text-lg">
+    <strong className="text-blue-900">Lanco Power Ltd. (Anpara), Uttar Pradesh</strong>
+  </li>
+  <li className="pl-4 border-l-4 border-blue-900 text-lg">
+    <strong className="text-blue-900">NTPC Ltd. (Vindhanagar), Madhya Pradesh</strong>
+  </li>
+</ul>
+
+            </div>
+
+            <div className="space-y-4 text-gray-700">
+              <p>
+                As our capabilities grew, we extended our services to large
+                cross-country projects. One of the notable milestones in our
+                journey was our involvement in the{" "}
+                <strong>2012 Dabhol–Bangalore Pipeline Project</strong>, where
+                we worked as a trusted material supplier.
+              </p>
+              <p>
+                For this project, we proudly served{" "}
+                <strong>Punj Lloyd Ltd.</strong> as our esteemed client,
+                supporting them with:
+              </p>
+              <ul className="list-disc list-inside space-y-2">
+                <li>Personal protective equipment and safety gear</li>
+                <li>Welding accessories and lifting equipment</li>
+                <li>Power tools, hand tools, and essential hardware</li>
+                <li>
+                  General project materials required for smooth site operations
+                </li>
+              </ul>
+              <p>
+                These projects shaped our identity in the industrial projects
+                segment. They mark the beginning of our project experience and
+                continue to inspire us to deliver reliable, on-time, and
+                quality-driven solutions to every new site we serve.
               </p>
             </div>
           </div>
@@ -115,7 +195,7 @@ const About = () => {
         </Container>
       </section>
 
-      {/* Core Values */}
+      {/* Our Core Values */}
       <section className="py-20 bg-white">
         <Container>
           <SectionTitle
